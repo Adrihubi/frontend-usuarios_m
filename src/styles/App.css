@@ -1,0 +1,10 @@
+body { font-family: system-ui, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; }
+.app { max-width: 800px; margin: 0 auto; background: #fff; padding: 20px; border-radius: 8px; }
+.usuario-form { display: flex; flex-direction: column; gap: 10px; margin-bottom: 20px; }
+.usuario-form input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+.botones { display: flex; gap: 10px; }
+button { padding: 8px 16px; background: #007bff; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background: #0056b3; }
+.usuario-list { width: 100%; border-collapse: collapse; }
+.usuario-list th, .usuario-list td { padding: 8px; border-bottom: 1px solid #ddd; text-align: left; }
+.error { color: red; }
